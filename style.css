@@ -1,0 +1,36 @@
+.button{
+  background-color: grey;
+  float: left;
+  margin: .5rem;
+  padding: .5rem;
+  /*border-radius: 20%;*/
+  width: 5em;
+  /*clear: both;*/
+}
+
+.clear{
+  clear: both;
+}
+
+#buttons {
+  left: 50%;
+  margin: auto;
+  display: inline-block;
+}
+
+#timer_div {
+  /*margin: auto;
+  width:auto;*/
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#timer_div > h1 {
+  margin-bottom: .3rem;
+}
+
+#time{
+  font-size: 2.5em;
+  margin: 1rem;
+  letter-spacing: .1em;
+}
